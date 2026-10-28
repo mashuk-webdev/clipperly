@@ -1,0 +1,343 @@
+{
+  "services": [
+    {
+      "id": "s1",
+      "name": "Classic Haircut",
+      "description": "A timeless cut, styled to perfection. Includes a wash and style.",
+      "price": "$30.00",
+      "duration": "30 Mins",
+      "icon": "Scissors"
+    },
+    {
+      "id": "s2",
+      "name": "Modern Fade",
+      "description": "A sharp, clean fade of your choice (skin, low, mid, high).",
+      "price": "$35.00",
+      "duration": "45 Mins",
+      "icon": "Scissors"
+    },
+    {
+      "id": "s3",
+      "name": "Classic Hot Towel Shave",
+      "description": "A luxurious straight-razor shave with hot towels, pre-shave oil, and after-shave balm.",
+      "price": "$40.00",
+      "duration": "45 Mins",
+      "icon": "Razor"
+    },
+    {
+      "id": "s4",
+      "name": "Beard Trim & Sculpting",
+      "description": "Shape, line-up, and style your beard to perfection.",
+      "price": "$25.00",
+      "duration": "30 Mins",
+      "icon": "Razor"
+    },
+    {
+      "id": "s5",
+      "name": "The Full Works",
+      "description": "The ultimate grooming experience. Includes a classic haircut and a hot towel shave.",
+      "price": "$65.00",
+      "duration": "75 Mins",
+      "icon": "Comb"
+    },
+    {
+      "id": "s6",
+      "name": "Kid's Cut (Under 12)",
+      "description": "A great haircut for the little ones in a friendly and patient environment.",
+      "price": "$25.00",
+      "duration": "30 Mins",
+      "icon": "Scissors"
+    },
+    {
+      "id": "s7",
+      "name": "Head & Shoulder Massage",
+      "description": "A relaxing massage to relieve tension from your neck and shoulders.",
+      "price": "$30.00",
+      "duration": "20 Mins",
+      "icon": "Comb"
+    },
+    {
+      "id": "s8",
+      "name": "Hair Styling",
+      "description": "Get your hair styled for a special occasion or just a fresh new look.",
+      "price": "$20.00",
+      "duration": "20 Mins",
+      "icon": "Comb"
+    },
+    {
+      "name": "cutting",
+      "description": "New Fade Cut",
+      "price": "$40.00",
+      "duration": "40 Mins",
+      "id": "s1750872565667",
+      "icon": "Scissors"
+    }
+  ],
+  "barbers": [
+    {
+      "id": "1",
+      "name": "Marcus \"The Blade\" Johnson",
+      "specialty": "Classic Cuts & Beard Master",
+      "imageUrl": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "With over 10 years of experience, Marcus brings precision and artistry to every cut and shave. He specializes in traditional barbering techniques.",
+      "dataAiHint": "barber portrait"
+    },
+    {
+      "id": "2",
+      "name": "Lena \"The Stylist\" Rodriguez",
+      "specialty": "Modern Styles & Fades",
+      "imageUrl": "https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Lena is known for her keen eye for modern trends and flawless fades. She loves helping clients express their unique style.",
+      "dataAiHint": "female barber"
+    },
+    {
+      "id": "3",
+      "name": "Sam \"The Detailer\" Chen",
+      "specialty": "Detailed Hair Art & Kid's Cuts",
+      "imageUrl": "https://images.unsplash.com/photo-1593702295094-aea22597af65?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bio": "Sam has a passion for intricate designs and making every haircut a masterpiece. He is also great with kids, ensuring a comfortable experience.",
+      "dataAiHint": "barber cutting hair"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "quote": "Clipperly is hands down the best barbershop in town. Marcus always gets my fade perfect. The atmosphere is great and the service is top-notch!",
+      "clientName": "Alex P.",
+      "service": "Fade Haircut & Beard Trim"
+    },
+    {
+      "id": "2",
+      "quote": "I went to Lena for a complete style change and she was amazing! She listened to what I wanted and gave me a cut that I absolutely love. Highly recommend!",
+      "clientName": "Sarah K.",
+      "service": "Modern Restyle"
+    },
+    {
+      "id": "3",
+      "quote": "Sam is a true artist. He did an incredible design for my son and was so patient. We'll definitely be back.",
+      "clientName": "David L. & Son",
+      "service": "Hair Art & Kid's Cut"
+    }
+  ],
+  "galleryImages": [
+    {
+      "id": "1",
+      "src": "https://images.unsplash.com/photo-1582771498000-8ad44e6c84db?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "A barber meticulously cutting a client's hair",
+      "dataAiHint": "barber haircut"
+    },
+    {
+      "id": "2",
+      "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "A barber focused on cutting a client's hair",
+      "dataAiHint": "barber haircut"
+    },
+    {
+      "id": "3",
+      "src": "https://plus.unsplash.com/premium_photo-1661270415179-f7bcff006edb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "A client receiving a clean shave",
+      "dataAiHint": "client shave"
+    },
+    {
+      "id": "4",
+      "src": "https://images.unsplash.com/photo-1635273051839-003bf06a8751?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "A modern textured crop hairstyle",
+      "dataAiHint": "textured crop"
+    },
+    {
+      "id": "5",
+      "src": "https://images.unsplash.com/photo-1521490214993-bfb6f7dc096d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "A child's first haircut experience",
+      "dataAiHint": "child haircut"
+    },
+    {
+      "id": "6",
+      "src": "https://images.unsplash.com/photo-1589985494639-69e60c82cab2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Intricate hair tattoo design",
+      "dataAiHint": "hair design"
+    },
+    {
+      "id": "7",
+      "src": "https://images.unsplash.com/photo-1653875700329-a7c8aca94c95?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "A traditional hot towel shave in progress",
+      "dataAiHint": "hot towel shave"
+    },
+    {
+      "id": "8",
+      "src": "https://plus.unsplash.com/premium_photo-1677098575994-400ea6e05303?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "A long hairstyle for men, expertly styled",
+      "dataAiHint": "long hairstyle"
+    },
+    {
+      "id": "9",
+      "src": "https://images.unsplash.com/photo-1635273051937-a0ddef9573b6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "The interior of the stylish Clipperly barbershop",
+      "dataAiHint": "barbershop interior"
+    }
+  ],
+  "serviceHighlights": [
+    {
+      "id": "1",
+      "title": "Precision Cuts",
+      "description": "From classic bobs to modern pixies, tailored to your style.",
+      "icon": "Scissors",
+      "dataAiHint": "haircut scissors"
+    },
+    {
+      "id": "2",
+      "title": "Expert Shaves",
+      "description": "Experience the luxury of a traditional hot towel straight razor shave.",
+      "icon": "Razor",
+      "dataAiHint": "straight razor"
+    },
+    {
+      "id": "3",
+      "title": "Modern Styling",
+      "description": "Stay ahead of the trends with our expert styling services.",
+      "icon": "Comb",
+      "dataAiHint": "hair comb"
+    }
+  ],
+  "customers": [
+    {
+      "id": "c1",
+      "name": "Alex Williams",
+      "email": "alex.w@example.com",
+      "totalSpent": "$250.00",
+      "bookings": 5
+    },
+    {
+      "id": "c2",
+      "name": "Samantha Brown",
+      "email": "sam.b@example.com",
+      "totalSpent": "$180.00",
+      "bookings": 4
+    },
+    {
+      "id": "c3",
+      "name": "Michael Davis",
+      "email": "mike.d@example.com",
+      "totalSpent": "$320.00",
+      "bookings": 7
+    },
+    {
+      "id": "c4",
+      "name": "Jessica Miller",
+      "email": "jess.m@example.com",
+      "totalSpent": "$150.00",
+      "bookings": 3
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "customerName": "Alex Williams",
+      "barberName": "Marcus Johnson",
+      "serviceName": "Modern Fade",
+      "date": "2024-08-15",
+      "time": "10:30 AM",
+      "status": "Confirmed",
+      "price": "$35.00"
+    },
+    {
+      "id": "b2",
+      "customerName": "Samantha Brown",
+      "barberName": "Lena Rodriguez",
+      "serviceName": "The Full Works",
+      "date": "2024-08-15",
+      "time": "01:30 PM",
+      "status": "Completed",
+      "price": "$65.00"
+    },
+    {
+      "id": "b3",
+      "customerName": "Michael Davis",
+      "barberName": "Marcus Johnson",
+      "serviceName": "Classic Haircut",
+      "date": "2024-08-16",
+      "time": "09:00 AM",
+      "status": "Pending",
+      "price": "$30.00"
+    },
+    {
+      "id": "b4",
+      "customerName": "Jessica Miller",
+      "barberName": "Sam Chen",
+      "serviceName": "Kid's Cut",
+      "date": "2024-08-17",
+      "time": "02:00 PM",
+      "status": "Cancelled",
+      "price": "$25.00"
+    },
+    {
+      "id": "b1750872021353",
+      "customerName": "Md Vashik",
+      "barberName": "Sam \"The Detailer\" Chen",
+      "serviceName": "cutting",
+      "date": "2025-06-26",
+      "time": "10:00 AM",
+      "status": "Pending",
+      "price": "$40.00"
+    },
+    {
+      "id": "b1750882141333",
+      "customerName": "Md Vashik",
+      "barberName": "Sam \"The Detailer\" Chen",
+      "serviceName": "Beard Trim & Sculpting",
+      "date": "2025-06-26",
+      "time": "03:00 PM",
+      "status": "Pending",
+      "price": "$25.00"
+    },
+    {
+      "id": "b1750882211324",
+      "customerName": "Md Vashik",
+      "barberName": "Lena \"The Stylist\" Rodriguez",
+      "serviceName": "Classic Hot Towel Shave",
+      "date": "2025-06-27",
+      "time": "02:00 PM",
+      "status": "Pending",
+      "price": "$40.00"
+    },
+    {
+      "id": "b1750994968258",
+      "customerName": "Md Vashik",
+      "barberName": "Marcus \"The Blade\" Johnson",
+      "serviceName": "Head & Shoulder Massage",
+      "date": "2025-06-27",
+      "time": "12:00 PM",
+      "status": "Pending",
+      "price": "$30.00"
+    },
+    {
+      "id": "b1751091186352",
+      "customerName": "Md Vashik",
+      "barberName": "Sam \"The Detailer\" Chen",
+      "serviceName": "Head & Shoulder Massage",
+      "date": "2025-07-01",
+      "time": "02:00 PM",
+      "status": "Pending",
+      "price": "$30.00"
+    },
+    {
+      "id": "b1751108938439",
+      "customerName": "Md Vashik",
+      "barberName": "Lena \"The Stylist\" Rodriguez",
+      "serviceName": "Beard Trim & Sculpting",
+      "date": "2025-07-01",
+      "time": "12:00 PM",
+      "status": "Pending",
+      "price": "$25.00"
+    },
+    {
+      "id": "b1752904195612",
+      "customerName": "altaf",
+      "barberName": "Lena \"The Stylist\" Rodriguez",
+      "serviceName": "The Full Works",
+      "date": "2025-07-21",
+      "time": "12:00 PM",
+      "status": "Pending",
+      "price": "$65.00"
+    }
+  ]
+}

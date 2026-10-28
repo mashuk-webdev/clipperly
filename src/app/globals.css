@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 43% 97%; /* ivory white #f9f9f6 */
+    --foreground: 240 3% 11%; /* charcoal black #1c1c1e */
+
+    --card: 60 43% 97%;
+    --card-foreground: 240 3% 11%;
+
+    --popover: 0 0% 100%; /* Use white for popovers for better contrast on ivory */
+    --popover-foreground: 240 3% 11%;
+
+    --primary: 240 3% 11%; /* charcoal black #1c1c1e */
+    --primary-foreground: 60 43% 97%; /* ivory white #f9f9f6 */
+
+    --secondary: 240 3% 90%; /* light grey */
+    --secondary-foreground: 240 3% 11%;
+
+    --muted: 240 3% 94%; /* slightly lighter grey than secondary */
+    --muted-foreground: 240 3% 40%;
+
+    --accent: 51 100% 50%; /* gold #ffd700 */
+    --accent-foreground: 240 3% 11%; /* charcoal for text on gold */
+
+    --destructive: 0 72% 51%; /* A slightly desaturated red for a more vintage feel */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3% 88%; /* light grey border, slightly lighter than secondary bg */
+    --input: 0 0% 100%; /* white inputs for clarity on ivory background */
+    --ring: 51 100% 50%; /* gold for focus rings */
+
+    --radius: 0.5rem;
+
+    /* Sidebar colors - using main theme colors */
+    --sidebar-background: 240 3% 11%; /* Primary for sidebar bg */
+    --sidebar-foreground: 60 43% 97%; /* Primary-foreground for sidebar text */
+    --sidebar-primary: 51 100% 50%; /* Accent for sidebar primary elements */
+    --sidebar-primary-foreground: 240 3% 11%; /* Foreground for text on accent */
+    --sidebar-accent: 240 3% 20%; /* Slightly lighter primary for hover */
+    --sidebar-accent-foreground: 60 43% 97%;
+    --sidebar-border: 240 3% 30%;
+    --sidebar-ring: 51 100% 50%;
+
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    /* Dark theme based on inverting light theme principles */
+    --background: 240 3% 11%; 
+    --foreground: 60 43% 97%; 
+
+    --card: 240 3% 15%; 
+    --card-foreground: 60 43% 97%;
+
+    --popover: 240 3% 10%;
+    --popover-foreground: 60 43% 97%;
+
+    --primary: 60 43% 97%; 
+    --primary-foreground: 240 3% 11%; 
+
+    --secondary: 240 3% 25%; 
+    --secondary-foreground: 60 43% 97%;
+
+    --muted: 240 3% 20%;
+    --muted-foreground: 60 43% 70%;
+
+    --accent: 51 100% 50%; 
+    --accent-foreground: 240 3% 11%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3% 20%;
+    --input: 240 3% 20%;
+    --ring: 51 100% 50%;
+    
+    /* Dark Sidebar */
+    --sidebar-background: 60 43% 97%;
+    --sidebar-foreground: 240 3% 11%;
+    --sidebar-primary: 51 100% 50%;
+    --sidebar-primary-foreground: 240 3% 11%;
+    --sidebar-accent: 60 43% 90%;
+    --sidebar-accent-foreground: 240 3% 11%;
+    --sidebar-border: 60 43% 85%;
+    --sidebar-ring: 51 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  /* Hide default cursor on devices that support hover */
+  @media (hover: hover) and (pointer: fine) {
+    body, button, a {
+      cursor: none;
+    }
+  }
+}
